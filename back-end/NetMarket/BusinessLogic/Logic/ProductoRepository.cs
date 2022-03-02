@@ -1,0 +1,21 @@
+﻿using Core.Entities;
+using Core.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace BusinessLogic.Logic
+{
+    public class ProductoRepository : IProductoRepository
+    {
+        public Task<Producto> GetProductoByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IReadOnlyList<Producto>> GetProductosAsync()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
